@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --font-outfit: font-family: "Outfit", sans-serif;
+    --font-young: font-family: "Young Serif", serif;
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-gray: hsl(30, 18%, 87%);
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--font-outfit);
+    font-size: 16px;
+    background-color: var(--light-gray);
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.omelette__card {
+    background-color: var(--rose-white);
+    padding: 40px;
+}
+
+.omelette__img {
+    display: block;
+    height: 300px;
+    width: 656px;
+}
+
+h1 {
+    font-family: var(--font-young);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-weight: var(--font-400);
+    color: var(--dark-charcoal);
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
