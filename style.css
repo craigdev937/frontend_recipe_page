@@ -35,12 +35,14 @@ main {
 .omelette__card {
     background-color: var(--rose-white);
     padding: 40px;
+    max-width: 70%;
 }
 
-.omelette__img {
-    display: block;
-    height: 300px;
-    width: 656px;
+.omlette__image {
+    /* display: block; */
+    height: auto;
+    width: 600px;
+    object-fit: contain;
 }
 
 h1 {
