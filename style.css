@@ -39,10 +39,20 @@ main {
 }
 
 .omlette__image {
-    /* display: block; */
+    display: block;
     height: auto;
-    width: 600px;
-    object-fit: contain;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.omlett__title {
+    padding: 20px 0;
+    color: var(--dark-charcoal);
+}
+
+.omlett__text {
+    color: var(--nutmeg);
 }
 
 h1 {
@@ -61,3 +71,10 @@ h1 {
     color: hsl(228, 45%, 44%);
 }
 
+
+
+
+
+@media screen and (max-width: 375px) {
+
+}
