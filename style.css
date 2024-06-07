@@ -8,6 +8,7 @@
     --eggshell: hsl(30, 54%, 90%);
     --light-gray: hsl(30, 18%, 87%);
     --nutmeg: hsl(14, 45%, 36%);
+    --light-raspberry: hsl(331, 100%, 96%);
     --dark-raspberry: hsl(332, 51%, 32%);
     --wenge-brown: hsl(30, 10%, 34%);
     --dark-charcoal: hsl(24, 5%, 18%);
@@ -32,6 +33,7 @@ main {
     place-items: center;
 }
 
+/* OMLETT SECTION */
 .omelette__card {
     background-color: var(--rose-white);
     padding: 40px;
@@ -57,6 +59,23 @@ main {
 
 h1 {
     font-family: var(--font-young);
+}
+
+/* PREPARATION SECTION */
+.prep__section {
+    background-color: var(--light-raspberry);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.prep__title {
+    font: var(--font-outfit);
+    font-size: 1.5rem;
+    color: var(--dark-raspberry);
+}
+
+.prep__section ul {
+    
 }
 
 .attribution {
