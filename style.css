@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 :root {
-    --font-outfit: font-family: "Outfit", sans-serif;
-    --font-young: font-family: "Young Serif", serif;
+    --font-outfit: "Outfit", sans-serif;
+    --font-young: "Young Serif", serif;
     --white: hsl(0, 0%, 100%);
     --rose-white: hsl(330, 100%, 98%);
     --eggshell: hsl(30, 54%, 90%);
@@ -33,13 +33,13 @@ main {
     place-items: center;
 }
 
-/* OMLETT SECTION */
-.omelette__card {
+.main__card {
     background-color: var(--rose-white);
     padding: 40px;
     max-width: 70%;
 }
 
+/* OMLETT SECTION */
 .omlette__image {
     display: block;
     height: auto;
@@ -64,12 +64,12 @@ h1 {
 /* PREPARATION SECTION */
 .prep__section {
     background-color: var(--light-raspberry);
-    padding: 10px;
-    border-radius: 10px;
+    padding: 40px;
+    border-radius: 20px;
 }
 
 .prep__title {
-    font: var(--font-outfit);
+    font: var(--font-young);
     font-size: 1.5rem;
     color: var(--dark-raspberry);
 }
