@@ -7,7 +7,7 @@
     --rose-white: hsl(330, 100%, 98%);
     --eggshell: hsl(30, 54%, 90%);
     --light-gray: hsl(30, 18%, 87%);
-    --light-raspberry: hsl(331, 100%, 96%);
+    --light-raspberry: hsl(333, 56%, 94%);
     --dark-raspberry: hsl(332, 51%, 32%);
     --nutmeg: hsl(14, 45%, 36%);
     --wenge-brown: hsl(30, 10%, 34%);
@@ -48,7 +48,7 @@ main {
 }
 
 .omlett__title {
-    padding: 20px 0;
+    padding: 15px 0;
     color: var(--dark-charcoal);
     font-weight: 300;
     font-family: var(--font-young);
@@ -68,7 +68,7 @@ main {
 
 .prep__title {
     font: var(--font-young);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: var(--dark-raspberry);
     margin-bottom: 10px;
@@ -82,6 +82,7 @@ main {
     font-weight: 300;
     color: var(--dark-charcoal);
     padding-left: 20px;
+    margin: 10px;
 }
 
 .prep__list li::marker {
@@ -94,7 +95,7 @@ main {
 
 /* INGREDIENTS SECTION */
 .ingred {
-    padding: 20px;
+    padding: 15px;
     border-bottom: 1px solid;
 }
 
@@ -111,6 +112,7 @@ main {
     font-weight: 300;
     color: var(--dark-charcoal);
     padding-left: 20px;
+    margin: 10px;
 }
 
 .ingred__list li::marker {
@@ -119,21 +121,65 @@ main {
 
 /* INSTRUCTIONS SECTION */
 .inst {
-    padding: 20px;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid;
 }
 
-.inst__text {
+.inst__title {
     color: var(--nutmeg);
     font-family: var(--font-young);
+    margin-top: 1.5rem;
+}
+
+.inst__list {
+    padding: 0 20px 0 20px;
+}
+
+.inst__list li {
+    font-weight: 300;
+    color: var(--dark-charcoal);
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.inst__list li span {
+    font-weight: 600;
+}
+
+.inst__list li::marker {
+    color: var(--nutmeg);
+    font-weight: 600;
 }
 
 /* NUTRITION SECTION */
+.nut {
+    padding: 20px;
+}
+
+.nut__title {
+    color: var(--nutmeg);
+    font-family: var(--font-young);
+    margin-top: 1.5rem;
+}
+
+.nut__info {
+    padding: 1rem 0 1rem 0;
+}
 
 /* TABLE SECTION */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody {
+    display: table-row-group;
+    
+}
 
 /* ATTRIBUTION FOOTER SECTION */
 .attribution {
+    padding-top: 1rem;
     font-size: 11px;
     text-align: center;
     font-weight: var(--font-400);
