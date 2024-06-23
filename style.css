@@ -174,7 +174,19 @@ table {
 
 tbody {
     display: table-row-group;
-    
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.nut__value {
+    color: var(--nutmeg);
+    font-weight: 700;
 }
 
 /* ATTRIBUTION FOOTER SECTION */
