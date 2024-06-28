@@ -47,7 +47,8 @@ main {
 .omlett__title {
     padding: 15px 0;
     color: var(--dark-charcoal);
-    font-weight: 300;
+    font-size: 2rem;
+    font-weight: 600;
     font-family: var(--font-young);
 }
 
