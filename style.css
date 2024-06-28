@@ -30,7 +30,7 @@ body {
 }
 
 .main__card {
-    background-color: var(--rose-white);
+    background-color: var(--white);
     padding: 40px;
     max-width: 70%;
     margin: 3rem;
@@ -59,7 +59,7 @@ body {
 
 /* PREPARATION SECTION */
 .prep__section {
-    background-color: var(--light-raspberry);
+    background-color: var(--rose-white);
     padding: 30px;
     border-radius: 20px;
     margin: 20px 0 20px 0;
